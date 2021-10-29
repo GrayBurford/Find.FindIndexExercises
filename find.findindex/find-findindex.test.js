@@ -6,7 +6,7 @@ describe("#findUserByUsername", function() {
         { username: "akagen" },
         { username: "msmith" }
       ];
-    });
+    }); 
     it("returns the object if the username matches the string passed", function() {
       expect(findUserByUsername(users, "akagen")).toEqual({ username: "akagen" });
     });
